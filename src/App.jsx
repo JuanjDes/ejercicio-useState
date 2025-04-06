@@ -1,23 +1,8 @@
 import { useState } from "react"
 import './App.css'
 
-// Función App() sólo con 3 botones para cambiar el nombre
-/* function App() {
-    const [name, setName] = useState('Sofía');
-    const [newName, setNewName] = useState('');
-  
-    return (
-        <div>
-            <h2>Teacher name: {name}</h2>
-            <hr></hr>
-            <button onClick={() => setName('Data')}>Data</button>
-            <button onClick={() => setName('Reyes')}>Reyes</button>
-            <button onClick={() => setName('Yolanda')}>Yolanda</button>
-        </div>
-    )
-} */
 
-// Función App() con formulario para cambiar el nombre
+// Función App() con Botones y formulario para cambiar el nombre
 function App() {
     const [name, setName] = useState('Sofía');
     const [newName, setNewName] = useState('');
@@ -34,6 +19,17 @@ function App() {
         <div>
             <h2>Teacher name: {name}</h2>
             <hr></hr>
+            <br></br>
+            <br></br>
+            
+            <div>
+                <button onClick={() => setName('Data')}>Data</button>
+                <button onClick={() => setName('Reyes')}>Reyes</button>
+                <button onClick={() => setName('Yolanda')}>Yolanda</button>
+            </div>
+            <br></br>
+            <br></br>
+
             <form onSubmit={handleSubmit}>
                 <input type="text" value={newName}
                     onChange={(e) => setNewName(e.target.value)}
