@@ -1,4 +1,4 @@
-##Puedes ver la aplicación en el navegador visitando el enlace:
+## Puedes ver la aplicación en el navegador visitando el enlace:
 
 <a href="https://juanjdes.github.io/ejercicio-useState" target="_blank">Ver aplicación</a>
 
