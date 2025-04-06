@@ -1,3 +1,7 @@
+## Ver proyecto en el navegador: https://juanjdes.github.io/ejercicio-useState/
+Proyecto desplegado con npm run deploy en la rama gh-pages
+Si se hacen cambios, después del push, ejecutar npm run deploy para poder ver los cambios en el enlace a la aplicación.
+
 # Ejercicio: Cambio de Nombre del Profesor
 En este ejercicio tendrás que poner en práctica lo aprendido con useState. Para ello se pide que hagas una lista de nombres de tus profesores y que cada vez que cliques en uno de ellos cambie el nombre del profesor. Los pasos a seguir son los siguientes:
 
