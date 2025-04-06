@@ -1,4 +1,6 @@
-[Ver aplicacion en el navegador](https://juanjdes.github.io/ejercicio-useState)
+##Puedes ver la aplicación en el navegador visitando el enlace:
+
+<a href="https://juanjdes.github.io/ejercicio-useState" target="_blank">Ver aplicación</a>
 
 Proyecto desplegado con npm run deploy en la rama gh-pages
 Si se hacen cambios, después del push, ejecutar npm run deploy para poder ver los cambios en el enlace a la aplicación.
