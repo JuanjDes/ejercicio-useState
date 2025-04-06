@@ -1,6 +1,6 @@
 ## Puedes ver la aplicación en el navegador: <a href="https://juanjdes.github.io/ejercicio-useState" target="_blank" rel="noopener noreferrer">Ver</a>
 
-Proyecto desplegado con npm run deploy en la rama gh-pages.
+Proyecto desplegado con npm run deploy en la rama gh-pages.  
 Si se hacen cambios, después del push, ejecutar npm run deploy para poder ver los cambios en el enlace a la aplicación.
 
 # Ejercicio: Cambio de Nombre del Profesor
